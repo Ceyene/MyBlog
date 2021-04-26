@@ -1,0 +1,21 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "A blog made with Gatsby, React and GraphQL, with markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "gatsbyblog"
+  ],
+  "author": "@ce_y_ene",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^3.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0"
+  }
+}
