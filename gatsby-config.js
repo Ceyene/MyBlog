@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `My first blog with React, Gatsby and GraphQL`,
+    title: `Front End Dev Adventures`,
     author: {
       name: `Cyn Romero`,
       summary: `Web Developer`,
     },
-    description: `A simple blog page with Gatsby`,
+    description: `My first blog with React, Gatsby and GraphQL`,
     siteUrl: `https://localhost:8000`,
     social: {
       twitter: `ce_y_ene`,
