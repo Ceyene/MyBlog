@@ -9,7 +9,7 @@ const Home = ({ data }) => {
 
   return (
     <Container>
-      <h1>Front End Dev Adventures!</h1>
+      <h1 className="section-title">Blog Posts</h1>
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
         return (
