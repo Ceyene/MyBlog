@@ -5,6 +5,8 @@ description: "A post about my first experiences as a web developer"
 published: true
 ---
 
+![Developer Blog Post Image](./01.jpg)
+
 ## The Little Prince:
 
 I soon learned to know this flower better. On the little prince's planet the flowers had always been very simple. They had only one ring of petals; they took up no room at all; they were a trouble to nobody. One morning they would appear in the grass, and by night they would have faded peacefully away. But one day, from a seed blown from no one knew where, a new flower had come up; and the little prince had watched very closely over this small sprout which was not like any other small sprouts on his planet. It might, you see, have been a new kind of baobab.

@@ -5,6 +5,8 @@ description: "A post about a girl who becomes a jr developer"
 published: true
 ---
 
+![Developer Blog Post Image](./04.jpg)
+
 ## Far away, beyond the mountains of words...
 
 away from the countries of vowels and consonants, live simulated texts. They live isolated in houses of letters, on the coast of semantics, a great ocean of languages.
