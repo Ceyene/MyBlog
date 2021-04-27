@@ -9,29 +9,37 @@ const blogPosts = ({ data, pageContext }) => {
 
   return (
     <Container>
-      <h1>{frontmatter.title}</h1>
-      <p>{frontmatter.date}</p>
-      <article>
-        <MDXRenderer>{body}</MDXRenderer>
-      </article>
-      {previous === false ? null : (
-        <>
-          {previous && (
-            <Link to={previous.fields.slug}>
-              <button>{previous.frontmatter.title}</button>
-            </Link>
-          )}
-        </>
-      )}
-      {next === false ? null : (
-        <>
-          {next && (
-            <Link to={next.fields.slug}>
-              <button>{next.frontmatter.title}</button>
-            </Link>
-          )}
-        </>
-      )}
+      <div className="post">
+        <h1 className="post-heading">{frontmatter.title}</h1>
+        <h5 className="post-date">{frontmatter.date}</h5>
+        <article className="post-body">
+          <MDXRenderer>{body}</MDXRenderer>
+        </article>
+      </div>
+      <div className="previous-next">
+        {previous === false ? null : (
+          <>
+            {previous && (
+              <Link to={previous.fields.slug}>
+                <button className="previous-next-button">
+                  {previous.frontmatter.title}
+                </button>
+              </Link>
+            )}
+          </>
+        )}
+        {next === false ? null : (
+          <>
+            {next && (
+              <Link to={next.fields.slug}>
+                <button className="previous-next-button">
+                  {next.frontmatter.title}
+                </button>
+              </Link>
+            )}
+          </>
+        )}
+      </div>
     </Container>
   );
 };

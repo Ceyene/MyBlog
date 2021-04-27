@@ -17,6 +17,7 @@
 .main {
   width: 85vw;
   max-width: 900px;
+  min-height: 90vh;
   margin: 0 auto;
   background-color: $color-white;
   display: flex;
@@ -38,7 +39,7 @@
   position: sticky;
   z-index: 10;
   top: 0;
-  background-color: $color-blue;
+  background: $nav-background;
 
   &-button {
     color: $color-white;
@@ -85,10 +86,6 @@
     width: 96%;
   }
 
-  &-title {
-    text-transform: uppercase;
-  }
-
   &-title,
   &-title > a,
   &-link,
@@ -101,6 +98,11 @@
     color: $color-black;
   }
 
+  &-title {
+    text-transform: uppercase;
+    color: $color-blue;
+  }
+
   &-date {
     margin: 1rem;
     font-size: 1rem;
@@ -110,5 +112,67 @@
     margin-top: 1rem;
     color: $color-gray;
     font-size: 1.2rem;
+  }
+}
+
+.post {
+  padding: 1rem;
+
+  &-heading {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 3rem;
+    color: $color-blue;
+  }
+
+  &-date {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  &-body {
+    margin: 0 auto 4rem auto;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    ol,
+    ul,
+    p {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+    }
+
+    ol,
+    ul {
+      margin-left: 2rem;
+    }
+  }
+}
+
+.previous-next {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-button {
+    font-size: 1.25rem;
+    color: $color-black;
+    background: $color-orange;
+    box-shadow: $shadow;
+    border-radius: 5%;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 25%;
   }
 }
