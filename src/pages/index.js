@@ -1,14 +1,16 @@
-import { Link, graphql } from "gatsby";
 import React from "react";
+import { Link, graphql } from "gatsby";
 import Container from "../components/container";
+import SEO from "../components/seo";
 
 const Home = ({ data }) => {
-  //const siteTitle = data.site.siteMetadata.title;
-  //const siteDescription = data.site.siteMetadata.description;
+  const siteTitle = data.site.siteMetadata.title;
+  const siteDescription = data.site.siteMetadata.description;
   const posts = data.allMdx.nodes;
 
   return (
     <Container>
+      <SEO title={siteTitle} description={siteDescription} />
       <h1 className="section-title">Blog Posts</h1>
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
