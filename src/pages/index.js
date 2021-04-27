@@ -1,5 +1,6 @@
 import { graphql } from "gatsby";
 import React from "react";
+import Container from "../components/container";
 
 const Home = ({ data }) => {
   //const siteTitle = data.site.siteMetadata.title;
@@ -7,7 +8,7 @@ const Home = ({ data }) => {
   const posts = data.allMdx.nodes;
 
   return (
-    <div>
+    <Container>
       <h1>Front End Dev Adventures!</h1>
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
@@ -19,7 +20,7 @@ const Home = ({ data }) => {
           </div>
         );
       })}
-    </div>
+    </Container>
   );
 };
 
