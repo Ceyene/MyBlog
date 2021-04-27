@@ -1,16 +1,27 @@
 ---
 title: Hope and illusions
 date: "2021-01-27"
-description: "A post about a girl who wanted to be developer"
+description: "A post about a girl who becomes a jr developer"
 published: true
 ---
 
-## Penas del joven Werther
+## Far away, beyond the mountains of words...
 
-Reina en mi espíritu una alegría admirable, muy parecida a las dulces alboradas de la primavera, de que gozo aquí con delicia. Estoy solo, y me felicito de vivir en este país, el más a propósito para almas como la mía, soy tan dichoso, mi querido amigo, me sojuzga de tal modo la idea de reposar, que no me ocupo de mi arte. Ahora no sabría dibujar, ni siquiera hacer una línea con el lápiz; y, sin embargo, jamás he sido mejor pintor
+away from the countries of vowels and consonants, live simulated texts. They live isolated in houses of letters, on the coast of semantics, a great ocean of languages.
+A stream called Pons flows through their town and supplies them with the necessary standards. We are talking about a paraisomatic country in which pieces of roasted phrases fall into one's mouth. Not even all-powerful punctuation marks dominate mock texts; a life, you can say, little spelling.
 
-### Cuando el valle se vela en torno mío con un encaje de vapores...
+But one fine day, a little line of mock text, called Lorem Ipsum, decided to venture out into the vast world of grammar.
 
-Cuando el sol de mediodía centellea sobre la impenetrable sombra de mi bosque sin conseguir otra cosa que filtrar entre las hojas algunos rayos que penetran hasta el fondo del santuario, cuando recostado sobre la crecida hierba, cerca de la cascada, mi vista, más próxima a la tierra, descubre multitud de menudas y diversas plantas; cuando siento más cerca de mi corazón los rumores de vida de ese pequeño mundo que palpita en los tallos de las hojas, y veo las formas innumerables e infinitas de los gusanillos y de los insectos; cuando siento, en fin, la presencia del Todopoderoso, que nos ha creado a su imagen, y el soplo del amor sin limites que nos sostiene y nos mece en el seno de una eterna alegría; amigo mío, si los primeros fulgores del alba me acarician, y el cielo y el mundo que me rodean se reflejan en mi espíritu como la imagen de una mujer adorada, entonces suspiro y exclamo: "¡Si yo pudiera expresar todo lo que siento!
+### The great Oxmox discouraged him from doing so...
 
-¡Si todo lo que dentro de mí se agita con tanto calor, con tanta exuberancia de vida, pudiera yo extenderlo sobre el papel, convirtiendo éste en espejo de mi alma, como mi alma es espejo de Dios!" Amigo..., Pero me abismo y me anonada la sublimidad de tan magníficas imágenes.
+as those lands were littered with:
+
+- evil commas,
+- wild question marks,
+- treacherous semicolons
+
+but the mock text was not put off.
+
+He packed up his seven versalis, slipped his initial on his belt, and set off. When he had already scaled the first foothills of the cursive mountains, he turned to direct his gaze for the last time, towards his hometown Wordland, the heading of the Alphabet town and the subtitle of his own street, the street of the line.
+
+A rhetorical question crossed his mind and made him melancholic, but he immediately started walking again.
