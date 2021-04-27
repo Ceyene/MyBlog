@@ -1,5 +1,5 @@
 ---
-title: Strange adventure
+title: Still growing
 date: "2021-04-26"
 description: "A post about how my first developer job searching is going"
 published: true
