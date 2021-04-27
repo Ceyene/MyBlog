@@ -2,8 +2,8 @@ import { graphql } from "gatsby";
 import React from "react";
 
 const Home = ({ data }) => {
-  const siteTitle = data.site.siteMetadata.title;
-  const siteDescription = data.site.siteMetadata.description;
+  //const siteTitle = data.site.siteMetadata.title;
+  //const siteDescription = data.site.siteMetadata.description;
   const posts = data.allMdx.nodes;
 
   return (
@@ -12,10 +12,10 @@ const Home = ({ data }) => {
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
         return (
-          <div>
-            <h1>{title}</h1>
-            <p>{post.frontmatter.date}</p>
-            <p>{post.frontmatter.description}</p>
+          <div className="card">
+            <h1 className="card-title">{title}</h1>
+            <p className="card-date">{post.frontmatter.date}</p>
+            <p className="card-description">{post.frontmatter.description}</p>
           </div>
         );
       })}

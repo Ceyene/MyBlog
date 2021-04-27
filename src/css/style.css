@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.card {
+  padding: 2rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.2rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  transition: transform 350ms;
+}
+
+.card:hover {
+  cursor: pointer;
+  text-decoration: none;
+  border-left: 0.2rem solid rgb(23, 48, 73);
+  border-bottom: 0.2rem solid rgb(23, 48, 73);
+  transform: translateX(-2px);
+}
+
+.card:first-of-type {
+  margin-top: 4rem;
+}
+
+.card-title,
+.card-title > a,
+.card-link,
+.card-link > a {
+  margin: 0;
+  font-weight: 600;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.card-date {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.card-description {
+  margin-top: 1rem;
+  color: #7e7e7e;
+  font-size: 1.2rem;
+}
