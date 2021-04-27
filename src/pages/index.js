@@ -1,4 +1,4 @@
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import React from "react";
 import Container from "../components/container";
 
@@ -13,10 +13,12 @@ const Home = ({ data }) => {
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
         return (
-          <div className="card">
-            <h1 className="card-title">{title}</h1>
-            <p className="card-date">{post.frontmatter.date}</p>
-            <p className="card-description">{post.frontmatter.description}</p>
+          <div className="card" key={post.key}>
+            <Link className="card-link" to={post.slug}>
+              <h1 className="card-title">{title}</h1>
+              <p className="card-date">{post.frontmatter.date}</p>
+              <p className="card-description">{post.frontmatter.description}</p>
+            </Link>
           </div>
         );
       })}
