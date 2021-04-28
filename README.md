@@ -1,6 +1,6 @@
 # MyBlog 📝 💻
 
-My first blog from scratch with [Gatsby] and GraphQL.
+A blog from scratch, with [Gatsby] and GraphQL.
 
 ## Building locally
 
