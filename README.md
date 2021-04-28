@@ -1,6 +1,6 @@
 # MyBlog 📝 💻
 
-A blog from scratch, with [Gatsby] and GraphQL.
+A blog from scratch, with [Gatsby] and GraphQL. You can see it in https://frontenddevblog.netlify.app/
 
 ## Building locally
 
