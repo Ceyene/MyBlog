@@ -31,6 +31,10 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
+          name: `keywords`,
+          content: `blog, gatsby, graphql, react, ceyene, cynromero`,
+        },
+        {
           property: `og:title`,
           content: title,
         },

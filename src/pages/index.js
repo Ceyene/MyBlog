@@ -11,7 +11,10 @@ const Home = ({ data }) => {
   return (
     <Container>
       <SEO title={siteTitle} description={siteDescription} />
-      <h1 className="section-title">Blog Posts</h1>
+      <h1 className="main-title">Front End Dev Adventures!</h1>
+      <p className="main-description">
+        A Gatsby and GraphQL Blog - By Cynthia Romero
+      </p>
       {posts.map((post) => {
         const title = post.frontmatter.title || post.fields.slug;
         return (

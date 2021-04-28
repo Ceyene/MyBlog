@@ -1,23 +1,21 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const Header = () => {
   return (
-    <div className="sticky-nav">
-      <a href="/" className="sticky-nav-button">
+    <nav className="sticky-nav">
+      <Link to="/" className="sticky-nav-button">
         Home
-      </a>
+      </Link>
       <div className="sticky-nav-stack">
-        <a href="/" className="sticky-nav-button">
-          Blog
-        </a>
-        <a href="/" className="sticky-nav-button">
-          Contact
-        </a>
-        <a href="/" className="sticky-nav-button">
+        <Link to="/about" className="sticky-nav-button">
           About
-        </a>
+        </Link>
+        <Link to="/contact" className="sticky-nav-button">
+          Contact
+        </Link>
       </div>
-    </div>
+    </nav>
   );
 };
 
