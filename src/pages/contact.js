@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="section">
         <h2 className="section-title">Contact me</h2>
         <p className="section-text">
-          Click any of the buttons bellow and send me your message. Let's work
+          Click any of the buttons below and send me your message. Let's work
           together!
         </p>
         <div className="contact">
