@@ -7,14 +7,12 @@ const Header = () => {
       <Link to="/" className="sticky-nav-button">
         Home
       </Link>
-      <div className="sticky-nav-stack">
-        <Link to="/about" className="sticky-nav-button">
-          About
-        </Link>
-        <Link to="/contact" className="sticky-nav-button">
-          Contact
-        </Link>
-      </div>
+      <Link to="/about" className="sticky-nav-button">
+        About
+      </Link>
+      <Link to="/contact" className="sticky-nav-button">
+        Contact
+      </Link>
     </nav>
   );
 };
